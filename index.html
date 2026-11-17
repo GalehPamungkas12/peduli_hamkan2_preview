@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peduli HAM — Ruang solidaritas dan aksi nyata warga</title>
+<meta name="description" content="Peduli HAM lahir sebagai rumah bersama bagi siapa saja yang ingin menjaga martabat kemanusiaan lewat langkah yang nyata, terukur, dan membumi.">
+<meta name="theme-color" content="#FAF7F2">
+<meta name="referrer" content="no-referrer">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="pk">
+<div id="pbar"></div>
+
+<div class="alert"><div class="wrap"><span>Hakmu dilanggar atau kamu melihat pelanggaran? Pendampingan gratis dan identitasmu dijaga.</span><a href="#kontak">Lapor ke posko</a></div></div>
+
+<!-- ================= NAVBAR ================= -->
+<header id="siteNav" class="hn">
+<div class="hn-shell">
+    <div class="hn-bar">
+        <a href="#beranda" class="hn-brand" aria-label="Beranda Peduli HAM">
+            <img src="images/logo.png" alt="Logo Peduli HAM" referrerpolicy="no-referrer" class="hn-logo"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display=''">
+            <span class="hn-emblem" aria-hidden="true" style="display:none">P</span>
+            <span class="hn-brand-text">
+                <span class="hn-brand-name">peduli ham<b>.</b></span>
+            </span>
+        </a>
+
+        <nav class="hn-menu" aria-label="Navigasi Utama">
+            <span class="hn-ind" aria-hidden="true"></span>
+            <a href="#tentang" class="hn-link">Tentang</a>
+            <a href="#metrik"  class="hn-link">Dampak</a>
+            <a href="#pilar"   class="hn-link">4 Pilar</a>
+            <a href="#wicara"  class="hn-link">Ruang Wicara</a>
+            <a href="#riset"   class="hn-link">Riset</a>
+            <a href="#faq"     class="hn-link">FAQ</a>
+        </nav>
+
+        <div class="hn-actions">
+            <a href="#kontak" class="hn-cta">
+                <span>Ambil Bagian</span>
+                <i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></i>
+            </a>
+            <button type="button" class="hn-burger" id="hamburger" aria-label="Buka Menu" aria-expanded="false" aria-controls="mobileDrawer">
+                <i></i><i></i><i></i>
+            </button>
+        </div>
+
+        <span class="hn-progress" id="hnProgress" aria-hidden="true"></span>
+    </div>
+
+    <div class="hn-panel" id="mobileDrawer" aria-hidden="true">
+        <nav class="hn-panel-inner" aria-label="Navigasi Seluler">
+            <a href="#tentang" class="hn-plink" style="--i:0"><span class="n">01</span><span class="t">Tentang</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#metrik"  class="hn-plink" style="--i:1"><span class="n">02</span><span class="t">Dampak</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#pilar"   class="hn-plink" style="--i:2"><span class="n">03</span><span class="t">4 Pilar Gerakan</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#wicara"  class="hn-plink" style="--i:3"><span class="n">04</span><span class="t">Ruang Wicara</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#riset"   class="hn-plink" style="--i:4"><span class="n">05</span><span class="t">Riset &amp; Catatan</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#faq"     class="hn-plink" style="--i:5"><span class="n">06</span><span class="t">Tanya Jawab</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+
+            <a href="#kontak" class="hn-pcta" style="--i:6">
+                <span>Ambil Bagian Sekarang</span>
+                <i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></i>
+            </a>
+        </nav>
+    </div>
+</div>
+<div class="hn-scrim" id="hnScrim" aria-hidden="true"></div>
+</header>
+
+<!-- ================= HERO ================= -->
+<div id="beranda" class="hero">
+  <div class="hfull">
+    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1800&q=80" alt="Warga berkumpul dan saling mendukung" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+    <div class="cap"><div class="wrap">
+      <span class="kicker">Ruang solidaritas warga</span>
+      <h1>Membela martabat warga, dari tingkat tapak.</h1>
+      <p class="lead"><strong>Peduli HAM</strong> adalah ruang independen bagi warga, pegiat muda, dan praktisi hukum. Kami mendengar, mendampingi tanpa biaya, dan merahasiakan identitas pelapor.</p>
+      <div class="cta"><a href="#kontak" class="btn l">Ceritakan kasusmu</a><a href="#pilar" class="btn o">Lihat bidang kerja</a></div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ================= ANGKA ================= -->
+<section id="metrik" class="stats" aria-label="Jejak kerja">
+  <div class="wrap">
+    <div class="st"><b><span class="cv" data-t="120">120</span><i>+</i></b><span>warga didampingi tanpa dipungut biaya</span></div>
+    <div class="st"><b><span class="cv" data-t="35">35</span><i>+</i></b><span>komunitas dan LBH kampus dalam jejaring</span></div>
+    <div class="st"><b><span class="cv" data-t="100">100</span><i>%</i></b><span>pendampingan pro-bono, identitas dijaga</span></div>
+    <div class="st"><b><span class="cv" data-t="24">24</span><i> jam</i></b><span>batas waktu kami membalas setiap cerita</span></div>
+  </div>
+</section>
+
+<!-- ================= TENTANG ================= -->
+<section id="tentang" class="sec">
+  <div class="wrap about">
+    <div class="ph"><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80" alt="Ruang dialog warga" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'"></div>
+    <div class="tx">
+      <span class="kicker">Tentang kami</span>
+      <h2>Kepedulian adalah kerja sunyi yang dirawat bersama.</h2>
+      <p>Peduli HAM lahir sebagai rumah bersama bagi siapa saja yang ingin menjaga martabat kemanusiaan lewat langkah yang nyata, terukur, dan membumi.</p>
+      <p>Keadilan bukan milik mereka yang berkuasa atau bermodal saja. Lewat pendampingan langsung tanpa biaya, riset lapangan independen, dan solidaritas akar rumput, kami memastikan tak ada warga yang dibiarkan sendirian.</p>
+      <p class="pull">Kami bukan pahlawan, melainkan kawan seperjalanan yang siap mendengarkan.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BIDANG KERJA ================= -->
+<section id="pilar" class="idx sec">
+  <div class="wrap">
+    <div class="idx-h"><h2>Empat bidang kerja Peduli HAM</h2><p>Gagasan kepedulian kami ubah menjadi tindakan langsung, dirawat bersama warga dan jaringan relawan setiap hari.</p></div>
+    <div class="mos">
+      <article class="tile" style="--c:#4D1204">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+        <small>Solidaritas warga</small><h3>Aktivasi Komunitas</h3><p>Membangun simpul saling jaga di tingkat tapak agar warga sigap saling melindungi saat krisis terjadi.</p>
+      </article>
+      <article class="tile" style="--c:#561505">
+        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+        <small>Pendidikan publik</small><h3>Literasi Hak Terbuka</h3><p>Menerjemahkan hukum, hak kerja, dan keamanan digital ke bahasa sehari-hari.</p>
+      </article>
+      <article class="tile" style="--c:#4D1204">
+        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+        <small>Bantuan awal</small><h3>Pos Bantuan Pro-Bono</h3><p>Ruang aduan dan konsultasi awal. Gratis, rahasia, tanpa stigma.</p>
+      </article>
+      <article class="tile" style="--c:#3F0E03">
+        <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1600&q=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+        <small>Riset dan advokasi</small><h3>Pengawalan Kebijakan</h3><p>Mendokumentasikan fakta lapangan secara teliti untuk mengawal akuntabilitas dan mencegah impunitas berulang.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CARA PENGADUAN ================= -->
+<section class="sec">
+  <div class="wrap">
+    <span class="kicker">Cara pengaduan</span>
+    <h2>Tiga anak tangga menuju pendampingan.</h2>
+    <div class="stairs">
+      <div class="stair"><span class="no">1</span><div><h3>Ceritakan</h3><p>Tulis apa yang kamu alami lewat email. Tak perlu bukti lengkap, tak perlu bahasa hukum.</p></div><span class="when">Hari ini, kapan pun kamu siap</span></div>
+      <div class="stair"><span class="no">2</span><div><h3>Didengar dan dipetakan</h3><p>Kawan pendamping membalas, merapikan kronologi, lalu memetakan langkah perlindungan bersamamu.</p></div><span class="when">Dibalas maksimal 24 jam kerja</span></div>
+      <div class="stair"><span class="no">3</span><div><h3>Didampingi</h3><p>Kami menemani prosesnya dan merujuk ke LBH atau komunitas mitra bila perlu. Semua tanpa biaya.</p></div><span class="when">Sampai kasusmu tuntas</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RISET ================= -->
+<section id="riset" class="sec" style="padding-top:0">
+  <div class="wrap">
+    <span class="kicker">Riset dan publikasi</span>
+    <h2>Catatan independen dari lapangan.</h2>
+    <div class="pub">
+      <article class="feat">
+        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1400&q=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+        <p class="meta" style="margin-top:20px">Catatan hukum<span>Mei 2026</span></p>
+        <h3>Hak menolak pemeriksaan ilegal: panduan konstitusional di ruang publik</h3>
+        <p class="d">Penjelasan lugas tentang hak warga saat berhadapan dengan aparat di jalan tanpa surat tugas resmi.</p>
+        <p style="margin-top:18px"><a href="#kontak" class="tl">Baca dokumen lengkap</a></p>
+      </article>
+      <div class="side">
+        <article class="it">
+          <img src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=700&q=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+          <div><p class="meta">Panduan lapangan<span>April 2026</span></p><h3>Protokol saling jaga: mengamankan data dan rekan komunitas</h3><p class="d">Daftar periksa menjaga privasi sebelum risiko meluas di ranah digital.</p><p style="margin-top:12px"><a href="#kontak" class="tl">Baca dokumen lengkap</a></p></div>
+        </article>
+        <article class="it">
+          <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'">
+          <div><p class="meta">Solidaritas tapak<span>Maret 2026</span></p><h3>Kerja sunyi komunitas: dapur mandiri dan posko rujukan darurat</h3><p class="d">Refleksi tentang kekuatan modal sosial warga ketika instrumen formal berjarak.</p><p style="margin-top:12px"><a href="#kontak" class="tl">Baca dokumen lengkap</a></p></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KUTIPAN ================= -->
+<section class="quote sec">
+  <div class="wrap">
+    <blockquote>Keberanian membela hak asasi tak dimulai dari pidato megah di panggung, melainkan dari kesediaan duduk mendengarkan mereka yang suaranya sedang disumpal.</blockquote>
+    <div class="who"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/id/1025/1000/1200'"><span><b>Ahmad Firdaus, S.H.</b>Pendamping hukum warga dan peneliti kebijakan</span></div>
+  </div>
+</section>
+
+<!-- ================= RUANG WICARA ================= -->
+<section id="wicara" class="sec">
+  <div class="wrap talk-g">
+    <div>
+      <span class="kicker">Ruang Wicara</span>
+      <h2>Diskusi dwimingguan, terbuka untuk umum.</h2>
+      <p class="lead">Pernah mendampingi kasus atau meneliti ketimpangan? Pimpin satu sesi. Semua sesi berlangsung daring.</p>
+      <a href="mailto:peduli.hankam@gmail.com?subject=Pengajuan%20Topik%20Ruang%20Wicara" class="btn">Ajukan topik diskusi</a>
+    </div>
+    <div class="ag">
+      <div class="ag-r"><span class="n">#14</span><div><small>Kolektif Keamanan Siber</small><h3>Keamanan digital warga: menghadapi doxing dan teror siber</h3></div><a href="#kontak" class="tl">Ikuti sesi</a></div>
+      <div class="ag-r"><span class="n">#15</span><div><small>Kawan Bantuan Hukum</small><h3>Hak dasar saat dipanggil aparat: bersikap tenang tanpa panik</h3></div><a href="#kontak" class="tl">Ikuti sesi</a></div>
+      <div class="ag-r"><span class="n">#16</span><div><small>Fasilitator Komunitas</small><h3>Etika mendengar korban: membangun ruang aman untuk pulih bersama</h3></div><a href="#kontak" class="tl">Ikuti sesi</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="faq sec">
+  <div class="wrap faq-g">
+    <div><span class="kicker">Tanya jawab</span><h2>Sebelum kamu bercerita.</h2><p style="max-width:26em;margin-top:18px">Wajar jika ragu atau cemas. Ini jawaban atas hal yang paling sering ditanyakan.</p></div>
+    <div>
+      <details><summary>Apakah pendampingannya benar-benar gratis?</summary><p>Ya, seluruhnya. Pengaduan, konsultasi awal, sampai pendampingan kasus dilakukan pro-bono agar hak atas keadilan tidak terhalang soal biaya.</p></details>
+      <details><summary>Bagaimana identitas dan cerita saya dilindungi?</summary><p>Kerahasiaan adalah prinsip mutlak kami. Jalur komunikasi posko dienkripsi dan kronologi tidak pernah dirilis tanpa persetujuan tertulis Anda.</p></details>
+      <details><summary>Perlu bukti lengkap sebelum berkonsultasi?</summary><p>Tidak. Ceritakan saja apa yang Anda alami. Kawan pendamping membantu merapikan kronologi dan memetakan langkah perlindungan bertahap.</p></details>
+      <details><summary>Bagaimana cara jadi relawan atau pengisi Ruang Wicara?</summary><p>Posko terbuka bagi warga, mahasiswa, praktisi hukum, dan peneliti independen. Kirim email ke narahubung kami.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KONTAK ================= -->
+<section id="kontak" class="ct sec">
+  <div class="wrap ct-g">
+    <div>
+      <h2>Ceritamu layak didengar.</h2>
+      <p class="t">Butuh pendampingan, ingin jadi relawan, atau mau kolaborasi riset? Posko selalu terbuka untuk ceritamu, tenagamu, dan keahlianmu.</p>
+    </div>
+    <div class="mb">
+      <small>Narahubung posko</small>
+      <div class="a">peduli.hankam@gmail.com</div>
+      <a href="mailto:peduli.hankam@gmail.com" class="btn l">Buka aplikasi email</a>
+      <button id="cp" data-email="peduli.hankam@gmail.com" type="button" class="btn o">Salin alamat email</button>
+      <p style="margin-top:14px;font-size:13.5px">Dibalas maksimal 24 jam kerja.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="ft">
+  <div class="ft-in">
+    <div class="ft-top">
+      <p class="ft-title">Kita tidak bergerak sendirian<span>.</span></p>
+      <p class="ft-sub">We don't move alone.</p>
+    </div>
+
+    <div class="ft-grid">
+      <div class="ft-c5">
+        <span class="ft-logo">peduli ham<span>.</span></span>
+        <p class="ft-desc">Gerakan swadaya independen yang berpusat di Indonesia untuk mengadvokasi hak asasi, merawat martabat kemanusiaan, dan memperkuat perlindungan warga di tingkat akar rumput.</p>
+      </div>
+
+      <div class="ft-c3">
+        <p class="ft-h">Navigasi Utama</p>
+        <ul class="ft-list">
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#metrik">Dampak &amp; Metrik</a></li>
+          <li><a href="#pilar">4 Pilar Fokus</a></li>
+          <li><a href="#wicara">Ruang Wicara</a></li>
+          <li><a href="#riset">Riset Lapangan</a></li>
+        </ul>
+      </div>
+
+      <div class="ft-c4">
+        <p class="ft-h">Kanal Komunikasi</p>
+        <ul class="ft-list">
+          <li><a href="mailto:peduli.hankam@gmail.com"><span>Email: peduli.hankam@gmail.com</span><span class="turn-arrow">↗</span></a></li>
+          <!-- Opsional: hapus komentar ini dan isi username bila ada
+          <li><a href="https://instagram.com/USERNAME" target="_blank" rel="noopener"><span>Instagram: @USERNAME</span><span class="turn-arrow">↗</span></a></li>
+          <li><a href="https://x.com/USERNAME" target="_blank" rel="noopener"><span>X / Twitter: @USERNAME</span><span class="turn-arrow">↗</span></a></li>
+          -->
+        </ul>
+        <a href="#beranda" class="ft-up"><span>Kembali ke Atas</span><span>↑</span></a>
+      </div>
+    </div>
+
+    <div class="ft-bot">
+      <p>&copy; <span id="yr">2026</span> Peduli HAM Indonesia. Hak Cipta Dilindungi.</p>
+      <div><span>Inisiatif Sipil Terbuka</span></div>
+    </div>
+  </div>
+</footer>
+
+<div id="toast" role="status">Alamat email berhasil disalin.</div>
+
+<script>
+/* ===== Navbar ===== */
+(function () {
+    var nav = document.getElementById('siteNav');
+    var btn = document.getElementById('hamburger');
+    var drawer = document.getElementById('mobileDrawer');
+    var scrim = document.getElementById('hnScrim');
+    if (!nav || !btn || !drawer) return;
+
+    var desktop = window.matchMedia('(min-width: 1100px)');
+
+    function toggleMenu(open) {
+        nav.classList.toggle('is-open', open);
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Tutup Menu' : 'Buka Menu');
+        drawer.setAttribute('aria-hidden', open ? 'false' : 'true');
+        document.documentElement.classList.toggle('hn-lock', open);
+    }
+    btn.addEventListener('click', function () { toggleMenu(!nav.classList.contains('is-open')); });
+    if (scrim) scrim.addEventListener('click', function () { toggleMenu(false); });
+    drawer.addEventListener('click', function (e) { if (e.target.closest('a')) toggleMenu(false); });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && nav.classList.contains('is-open')) { toggleMenu(false); btn.focus(); }
+    });
+    var onDesktop = function (e) { if (e.matches) toggleMenu(false); };
+    if (desktop.addEventListener) desktop.addEventListener('change', onDesktop);
+    else if (desktop.addListener) desktop.addListener(onDesktop);
+
+    var menu = nav.querySelector('.hn-menu');
+    var ind = menu ? menu.querySelector('.hn-ind') : null;
+    var links = menu ? Array.prototype.slice.call(menu.querySelectorAll('.hn-link')) : [];
+    var hovering = false;
+
+    function place(el) {
+        if (!ind) return;
+        if (!el || !el.offsetWidth) { ind.style.opacity = '0'; links.forEach(function (l) { l.classList.remove('is-on'); }); return; }
+        ind.style.width = el.offsetWidth + 'px';
+        ind.style.transform = 'translateX(' + el.offsetLeft + 'px)';
+        ind.style.opacity = '1';
+        links.forEach(function (l) { l.classList.toggle('is-on', l === el); });
+    }
+    function activeLink() { return menu ? menu.querySelector('.hn-link.is-active') : null; }
+
+    links.forEach(function (l) {
+        l.addEventListener('mouseenter', function () { hovering = true; place(l); });
+        l.addEventListener('focus', function () { place(l); });
+    });
+    if (menu) menu.addEventListener('mouseleave', function () { hovering = false; place(activeLink()); });
+
+    var sections = [];
+    var all = nav.querySelectorAll('.hn-link, .hn-plink');
+    all.forEach(function (a) {
+        var id = (a.getAttribute('href') || '').replace('#', '');
+        var el = id ? document.getElementById(id) : null;
+        if (el && sections.indexOf(el) === -1) sections.push(el);
+    });
+    var progress = document.getElementById('hnProgress');
+    var ticking = false;
+
+    function update() {
+        ticking = false;
+        nav.classList.toggle('is-scrolled', window.scrollY > 24);
+
+        var current = null;
+        sections.forEach(function (s) { if (s.getBoundingClientRect().top <= 140) current = s.id; });
+        all.forEach(function (a) { a.classList.toggle('is-active', current !== null && a.getAttribute('href') === '#' + current); });
+        if (!hovering) place(activeLink());
+
+        if (progress) {
+            var max = document.documentElement.scrollHeight - window.innerHeight;
+            progress.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ')';
+        }
+    }
+    window.addEventListener('scroll', function () {
+        if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+    }, { passive: true });
+    window.addEventListener('resize', function () { place(activeLink()); update(); });
+    window.addEventListener('load', update);
+    update();
+})();
+
+/* ===== Halaman ===== */
+document.addEventListener('DOMContentLoaded',()=>{
+  const yr=document.getElementById('yr');if(yr)yr.textContent=new Date().getFullYear();
+  const red=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const io=new IntersectionObserver(es=>es.forEach(e=>{
+    if(!e.isIntersecting)return;const el=e.target,to=+el.dataset.t;io.unobserve(el);
+    const t0=performance.now(),f=n=>{const t=Math.min(1,(n-t0)/1400);el.textContent=Math.round(to*(1-Math.pow(1-t,3)));if(t<1)requestAnimationFrame(f)};requestAnimationFrame(f);
+  }),{threshold:.4});
+  if(!red)document.querySelectorAll('.cv').forEach(c=>{c.textContent='0';io.observe(c)});
+  const bar=document.getElementById('pbar'),hi=document.querySelector('.hfull>img');
+  const onScroll=()=>{const h=document.documentElement.scrollHeight-innerHeight;bar.style.transform='scaleX('+(h>0?Math.min(1,scrollY/h):0)+')';if(hi&&!red&&scrollY<innerHeight*1.3)hi.style.transform='translate3d(0,'+(scrollY*.12)+'px,0)'};
+  addEventListener('scroll',()=>requestAnimationFrame(onScroll),{passive:true});onScroll();
+  if(!red){
+    document.querySelectorAll('.about .ph,.feat img').forEach(e=>e.setAttribute('data-img',''));
+    const sel='.sec>.wrap>.kicker,.sec>.wrap>h2,.idx-h>*,.tx>*,.mos,.stair,.feat>:not(img),.it,.quote blockquote,.who,.ag-r,.faq-g>div:first-child>*,details,.talk-g>div:first-child>*,.ct-g>div:first-child>*,.mb,.st';
+    const seen=new Map();
+    document.querySelectorAll(sel).forEach(el=>{
+      if(el.closest('.hfull'))return;
+      const p=el.parentElement,i=seen.get(p)||0;seen.set(p,i+1);
+      el.setAttribute('data-r','');el.style.setProperty('--d',Math.min(i,5)*110+'ms');
+    });
+    const ro=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+    document.querySelectorAll('[data-r],[data-img]').forEach(el=>ro.observe(el));
+    setTimeout(()=>document.querySelectorAll('[data-img]').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}),3000);
+  }
+  const ds=[...document.querySelectorAll('details')];
+  ds.forEach(d=>d.addEventListener('toggle',()=>{if(d.open)ds.forEach(o=>{if(o!==d)o.open=false})}));
+  const b=document.getElementById('cp'),t=document.getElementById('toast');
+  b?.addEventListener('click',()=>navigator.clipboard.writeText(b.dataset.email).then(()=>{t.style.opacity=1;t.style.transform='none';setTimeout(()=>{t.style.opacity=0;t.style.transform='translateY(12px)'},2800)}).catch(()=>alert('Email: '+b.dataset.email)));
+});
+</script>
+</body>
+</html>
